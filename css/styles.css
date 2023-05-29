@@ -147,6 +147,9 @@ span {
   color: #f4f4fd;
 }
 /* portfolio */
+.logo-span {
+  color: var(--title-text-color);
+}
 .portfolio .button:hover,
 .portfolio .button:focus {
   color: var(--primary-bg-color);
