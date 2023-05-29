@@ -99,6 +99,7 @@ span {
   letter-spacing: 0.02em;
 }
 .text-section-three {
+  color: var(--text-color);
   font-size: 16px;
   letter-spacing: 0.02em;
 }
