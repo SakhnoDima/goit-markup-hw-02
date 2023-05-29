@@ -28,6 +28,9 @@ body {
 span {
   color: var(--title-text-color);
 }
+.list {
+  list-style: none;
+}
 /* .logo .logo:hover,
 .logo:focus {
   color: var(--pressed-color);
