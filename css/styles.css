@@ -30,6 +30,9 @@ span {
 }
 .list {
   list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 /* .logo .logo:hover,
 .logo:focus {
@@ -40,10 +43,22 @@ span {
   color: var(--title-text-color);
   list-style: none;} */
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--pressed-color);
 }
+.adres-nav .link {
+  color: var(--text-color);
+  font-style: normal;
+}
+.adres {
+  letter-spacing: 0.02em;
+}
+.adres-nav .link:hover,
+.adres-nav .link:focus {
+  color: var(--pressed-color);
+}
+
 .one-title {
   font-size: 20px;
   font-weight: 500;
@@ -63,13 +78,7 @@ span {
 .three-title-name {
   color: var(--title-text-color);
 }
-.adres-nav .link {
-  color: var(--text-color);
-}
-.adres-nav .link:hover,
-.adres-nav .link:focus {
-  color: var(--pressed-color);
-}
+
 .herou-title {
   font-size: 56px;
   line-height: 1.07;
