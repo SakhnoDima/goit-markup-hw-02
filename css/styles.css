@@ -42,12 +42,14 @@ span {
   font-weight: 500;
   color: var(--title-text-color);
   list-style: none;} */
-
+.list .link {
+  color: var(--title-text-color);
+}
 .list .link:hover,
 .list .link:focus {
   color: var(--pressed-color);
 }
-.adres-nav .link {
+.adres-nav {
   color: var(--text-color);
   font-style: normal;
 }
@@ -58,7 +60,14 @@ span {
 .adres-nav .link:focus {
   color: var(--pressed-color);
 }
-
+.section-herou {
+  background-color: var(--title-text-color);
+}
+.herou-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 .one-title {
   font-size: 20px;
   font-weight: 500;
@@ -84,11 +93,18 @@ span {
   line-height: 1.07;
 }
 .herou-button {
+  font-family: "Roboto", sans-serif;
   color: var(--primary-bg-color);
   background-color: var(--primary-color);
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.herou-button:hover,
+.herou.button:focus {
+  background-color: var(--pressed-color);
 }
 .button {
   color: var(--primary-color);
