@@ -49,13 +49,14 @@ span {
 .list .link:focus {
   color: var(--pressed-color);
 }
-.adres-nav {
+.adres-nav .list .link {
   color: var(--text-color);
   font-style: normal;
 }
 .adres {
   letter-spacing: 0.02em;
 }
+
 .adres-nav .link:hover,
 .adres-nav .link:focus {
   color: var(--pressed-color);
@@ -71,11 +72,22 @@ span {
 .one-title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-setion-one {
+  letter-spacing: 0.02em;
 }
 .two-title,
 .three-title {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02cm;
+  text-transform: capitalize;
+}
+.section-three {
+  background-color: #f4f4fd;
 }
 .three-title-name {
   font-weight: 500;
@@ -113,6 +125,7 @@ span {
   font-weight: 500;
   cursor: pointer;
 }
+/* portfolio */
 .portfolio .button:hover,
 .portfolio .button:focus {
   color: var(--primary-bg-color);
