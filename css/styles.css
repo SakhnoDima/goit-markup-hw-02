@@ -137,6 +137,12 @@ span {
   font-weight: 500;
   cursor: pointer;
 }
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer-logo {
+  color: #f4f4fd;
+}
 /* portfolio */
 .portfolio .button:hover,
 .portfolio .button:focus {
@@ -158,4 +164,5 @@ span {
 
 .footer-text {
   color: var(--unpresed-color);
+  letter-spacing: 0.02em;
 }
