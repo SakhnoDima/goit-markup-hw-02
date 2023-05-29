@@ -56,7 +56,9 @@ span {
 .adres {
   letter-spacing: 0.02em;
 }
-
+.adres-nav {
+  font-style: normal;
+}
 .adres-nav .link:hover,
 .adres-nav .link:focus {
   color: var(--pressed-color);
@@ -124,12 +126,11 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.herou-button:hover {
+.herou-button:hover,
+.herou-button:focus {
   background-color: var(--pressed-color);
 }
-.herou.button:focus {
-  background-color: var(--pressed-color);
-}
+
 .button {
   color: var(--primary-color);
   background-color: var(--unpresed-color);
