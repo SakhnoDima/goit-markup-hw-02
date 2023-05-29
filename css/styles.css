@@ -17,12 +17,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 7.17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
 }
-.logo.link {
+.link {
   text-decoration: none;
 }
 span {
@@ -78,7 +78,6 @@ span {
   color: var(--primary-bg-color);
   background-color: var(--primary-color);
   font-size: 16px;
-  height: 56px;
   font-weight: 500;
   cursor: pointer;
 }
