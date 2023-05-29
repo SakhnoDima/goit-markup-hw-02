@@ -49,6 +49,9 @@ span {
 .list .link:focus {
   color: var(--pressed-color);
 }
+.adres-nav {
+  font-style: normal;
+}
 .adres-nav .list .link {
   color: var(--text-color);
   font-style: normal;
@@ -56,9 +59,7 @@ span {
 .adres {
   letter-spacing: 0.02em;
 }
-.adres-nav {
-  font-style: normal;
-}
+
 .adres-nav .link:hover,
 .adres-nav .link:focus {
   color: var(--pressed-color);
