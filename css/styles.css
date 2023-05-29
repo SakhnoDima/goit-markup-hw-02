@@ -163,6 +163,8 @@ span {
   font-size: 20px;
   line-height: 1.5;
   color: var(--title-text-color);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio .text-portfolio {
   font-weight: 400;
